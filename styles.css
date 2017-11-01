@@ -1,0 +1,32 @@
+body {
+	background-color: #FFFFF0; 
+}
+
+.pageContainer {
+	height: 100vh;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;  
+	flex-wrap: wrap;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+p#student-result {
+	font-size: 5em; 
+	font-family: Sans-Serif;
+	font-weight: lighter; 
+	color: #666B60; 
+}
+
+.resultContainer {
+	max-height: 10%; 
+	height: 10%; 
+}
