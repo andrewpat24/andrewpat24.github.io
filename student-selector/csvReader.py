@@ -1,7 +1,7 @@
 import csv
 import sys
 
-with open("AP CSP Class Lists - 2nd Period.csv") as csvfile: 
+with open("Class Lists - Student Picker - 6th Period.csv") as csvfile: 
 	reader = csv.DictReader(csvfile)
 	for line in reader:
 		sys.stdout.write('"'+line['student']+'",')
